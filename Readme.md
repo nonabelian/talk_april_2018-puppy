@@ -1,9 +1,9 @@
 # Puppy Scientific Computing Talk April 2018
-##Demographic Clustering ZCTA5
+## Demographic Clustering ZCTA5
 
 The notebook contains the one-off analysis, which saves the model details.
 The model details are contained in the model folder, so the app
-can be run immediately.
+can be run immediately. Below is example output of the project:
 
 ![Demo App](images/demo_app.png)
 
