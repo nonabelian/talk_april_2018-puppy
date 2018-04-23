@@ -1,8 +1,11 @@
-# Puppy Scientific Computing Talk: Clustering ZCTA5
+# Puppy Scientific Computing Talk April 2018
+##Demographic Clustering ZCTA5
 
 The notebook contains the one-off analysis, which saves the model details.
 The model details are contained in the model folder, so the app
 can be run immediately.
+
+![Demo App](images/demo_app.png)
 
 ## Run locally
 
@@ -11,6 +14,11 @@ Clone repo and then run the following from the project root:
 ```
 $ docker build -f Dockerfile -t puppy_clustering .
 $ docker run -v /full/path/to/project/root/:/root/app -p 0.0.0.0:8080:8080 -it puppy_clustering bash
+```
+And within the container:
+```
+# cd app
+# python app.py
 ```
 
 Then direct your browser to http://localhost:8080
