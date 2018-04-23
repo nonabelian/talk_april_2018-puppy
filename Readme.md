@@ -1,9 +1,21 @@
 # Puppy Scientific Computing Talk April 2018
 ## Demographic Clustering ZCTA5
 
+(Presentation slides in docs folder.)
+
+It can be very interesting to perform regional clustering of the US based
+on census data.  This is done, for example, at
+[Patchwork Nation](http://www.patchworknation.org/)
+and
+[ESRI](https://www.esri.com/data/esri_data), to name a few. There, groups are
+clustered based on various attributes, across the US.
+So let's have a look at some clustering!
+
+## Analysis and App
+
 The notebook contains the one-off analysis, which saves the model details.
 The model details are contained in the model folder, so the app
-can be run immediately. Below is example output of the project:
+can be run immediately. Below is example output of the segmentation analysis:
 
 ![Demo App](images/demo_app.png)
 
