@@ -26,8 +26,8 @@ RUN pip install plotly --upgrade
 
 RUN cd ~
 COPY app.py  /root/
-COPY model  /root/
-COPY data  /root/
+COPY model  /root/model/
+COPY data  /root/data/
 
 WORKDIR /root/
 EXPOSE 8080
