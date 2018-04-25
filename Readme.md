@@ -29,7 +29,7 @@ $ docker run -v /full/path/to/project/root/:/root/app -p 0.0.0.0:8080:8080 -it p
 ```
 And within the container:
 ```
-# cd app
+# cd /root/app
 # python app.py
 ```
 
