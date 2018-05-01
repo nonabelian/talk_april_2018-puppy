@@ -21,8 +21,7 @@ Goal:
 * Preprocess and join any relevant data.
 * Drop sparse/redundant features.
 * Remove outliers for quality clusters.
-* Apply [Archetypal Analysis]
-(https://en.wikipedia.org/wiki/Archetypal_analysis)
+* Apply [Archetypal Analysis](https://en.wikipedia.org/wiki/Archetypal_analysis)
 to pull out distinct segments.
 * Build web application for navigating the clusters.
 
